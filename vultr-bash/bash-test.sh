@@ -112,6 +112,14 @@ case $modeID in
 esac
 }
 
+
+destroy_server(){
+	SUBID=$(curl -H "API-Key: $API_KEY" https://api.vultr.com/v1/server/list | python -mjson.tool |awk '/SUBID/'| tr '"' ' '| tr ',' ' '|awk -F ' :  ' '{print $2}')
+	# echo $SUBID
+	curl -H "API-Key: $API_KEY" https://api.vultr.com/v1/server/destroy --data "SUBID=$SUBID"
+}
+
+
 auto_mode(){
 	server_state=$(curl -H "API-Key: $API_KEY" https://api.vultr.com/v1/server/list | python -mjson.tool |awk '/default_password/||/main_ip/'|grep -v  "v6"| tr '"' ' '| tr ',' ' '|awk -F ' :  ' '{print $2}')
 	# echo $server_state
@@ -147,4 +155,6 @@ case $1 in
 		create_server ;;
 	"--getdata"|"-get") 
 		get_userdata ;;
+	"--destroy-server"|"-d") 
+		destroy_server ;;
 esac
