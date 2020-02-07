@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# 获取API_KEY
 config=$(cat ./.config)
 API_KEY=${config:$(expr $(expr index $config KEY= ) + 3):37}
 
