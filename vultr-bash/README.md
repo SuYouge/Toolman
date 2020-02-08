@@ -1,18 +1,18 @@
 # **vultr-bash**
 
-脚本详解文章链接在[这里](http://mecha-su.cn/2019/12/21/toolman-1/)。
+脚本详解文章链接在<a href="http://mecha-su.cn/2019/12/21/toolman-1" target="_blank">这里</a>。  
 
 ## 1. **准备工作**
 
 ### 1.1 启用win10下的linux
 
-参考[baidu经验](https://jingyan.baidu.com/article/c85b7a64a56c7f003aac954f.html)配置一个可以在win10下运行的linux系统
+参考<a href="https://jingyan.baidu.com/article/c85b7a64a56c7f003aac954f.html" target="_blank">baidu经验</a>配置一个可以在win10下运行的linux系统  
 
 等待过程可以开展下面的配置
 
 ### 1.2 配置API-KEY
 
-进入Vultr的[API](https://my.vultr.com/settings/#settingsapi)设置界面
+进入Vultr的<a href="https://my.vultr.com/settings/#settingsapi">API</a>设置界面
 
 在**Personal Access Token**中启用API，并将API-KEY复制下来
 
@@ -27,7 +27,7 @@
 
 ### 1.4 准备的最后一步（安装并运行脚本）
 
-访问[脚本下载地址](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SuYouge/Toolman/tree/master/vultr-bash)解压后放在某个根目录下（比如D盘，这样比较方便）
+访问<a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SuYouge/Toolman/tree/master/vultr-bash">脚本下载地址</a>解压后放在某个根目录下（比如D盘，这样比较方便）
 
 假设已经解压在`d盘`，在linux的终端下输入`cd /mnt/d/vultr-bash` （cd去指定目录）
 
