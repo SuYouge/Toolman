@@ -1,12 +1,11 @@
 #!/bin/bash
-
+# v0.1
 # 如果配置过程中脚本界面被关闭不知道会发生什么 ……
 
 # 需要创建.config文件
 get_key(){
 config=$(cat ./.config)
 API_KEY=$(sed -n 1p ./.config)
-# API_KEY=${config:$(expr $(expr index $config KEY= ) + 3):37}
 echo $API_KEY
 # ssr_path=$(sed -n 2p ./.config)
 # echo $ssr_path
