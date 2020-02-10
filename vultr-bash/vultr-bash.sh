@@ -86,7 +86,7 @@ main()
     server_list # 检查一次服务器
     # create_one # 按照检查结果选择布置ssr或开启服务器  
     # sudo apt-get install expect
-    ./login_ssh.sh $server_IP $server_PWD
+    ./login-ssh.sh $server_IP $server_PWD
 }  
 main  
 
