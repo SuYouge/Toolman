@@ -6,11 +6,9 @@
 
 之前折腾了半天root和python-ngrok脚本也没成功神秘暂时不打算研究腾讯云的ngrok了
 
-啥是反弹shell
+顺便想知道啥是反弹shell
 
-## 本机配置
-
-安装go
+## sunny-ngrok
 
 ## 配置termux
 
@@ -20,4 +18,10 @@ termux在豌豆荚中可以搜索到并直接安装
 
 申请权限：`termux-setup-storage `
 
-## 
+## php
+
+再添新坑，主要想知道`exec`这个函数的用法。
+
+## ksweb （php+nginx+mysql）
+
+想整个登陆功能并允许用户调用指定脚本
