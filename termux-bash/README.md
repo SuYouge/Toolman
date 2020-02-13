@@ -28,7 +28,7 @@ termux在豌豆荚中可以搜索到并直接安装
 
 [伪静态编写](https://blog.csdn.net/wojiuwangla/article/details/82259629)
 
-### php
+### php基础
 
 再添新坑，主要想知道`exec`这个函数的用法。
 
@@ -40,7 +40,7 @@ termux在豌豆荚中可以搜索到并直接安装
 
 [配置vscode](https://www.jianshu.com/p/20e307e5b3fc)
 
-### mysql
+### mysql基础
 
 [修改mysql默认密码](https://www.cnblogs.com/super-zhangkun/p/9435974.html)
 
@@ -50,7 +50,7 @@ termux在豌豆荚中可以搜索到并直接安装
 
 想想防注入
 
-### html
+### html基础
 
 [bootstrap设计工具](https://blog.csdn.net/delphiorang/article/details/78776845)
 
