@@ -32,8 +32,6 @@ termux在豌豆荚中可以搜索到并直接安装
 
 再添新坑，主要想知道`exec`这个函数的用法。
 
-想整个登陆功能并允许用户调用指定脚本
-
 [php+Mysql实现增删改查](https://blog.csdn.net/weixin_41105030/article/details/89357205)
 
 [php基础](https://www.php.net/manual/zh/language.variables.basics.php)
