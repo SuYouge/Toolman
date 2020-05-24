@@ -2,7 +2,7 @@
 
 学习写脚本。
 
-## 1. [vultr-bash](vultr-bash/README.md)
+## 1. [vultr-bash](vultr-bash)
 
 设计一个可以自动部署vultr服务器的bash脚本。
 
@@ -10,12 +10,12 @@
 
 免密码登陆ssh用到了expect脚本。
 
-## 2. [termux-bash](termux-bash/README.md)
+## 2. [termux-bash](termux-bash)
 
 手机端`Termux`+`ksweb`+`python-ngrok`配合`sunny+ngrok`的服务搞了个内网穿透（为什么找不到它的英语名）
 
 主要了解一下`termux`这个软件以及`freeBSD`。
 
-## 3. docker-ros
+## 3. [docker-ros](docker-ros)
 
 生成ros环境的dockerfile。
