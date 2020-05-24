@@ -15,3 +15,7 @@
 手机端`Termux`+`ksweb`+`python-ngrok`配合`sunny+ngrok`的服务搞了个内网穿透（为什么找不到它的英语名）
 
 主要了解一下`termux`这个软件以及`freeBSD`。
+
+## 3. docker-ros
+
+生成ros环境的dockerfile。
